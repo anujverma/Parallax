@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1EB10EA7963D1F897CD09396F09C0304C98CFB11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8AC9FF77DEFC97C6D9494BDA4942B35C19A87CD5" : 0,
+    "1EB10EA7963D1F897CD09396F09C0304C98CFB11" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9DA3B5C1-1745-47EE-960A-1F525234CB7E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8AC9FF77DEFC97C6D9494BDA4942B35C19A87CD5" : "..",
+    "1EB10EA7963D1F897CD09396F09C0304C98CFB11" : "Parallax\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Parallax",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Parallax.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anujverma\/Parallax.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1EB10EA7963D1F897CD09396F09C0304C98CFB11"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/viramesh\/Pager.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8AC9FF77DEFC97C6D9494BDA4942B35C19A87CD5"
+    }
+  ]
+}

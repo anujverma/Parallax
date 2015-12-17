@@ -13,8 +13,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var mainImage: UIImageView!
     @IBOutlet weak var headerImage: UIImageView!
-    
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,16 +23,11 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         scrollView.contentSize = mainImage.image!.size
         print(headerImage.frame.origin)
         
-    
-//        
-        let blurEffect = UIBlurEffect(style: .Dark)
-        let blurredEffectView = UIVisualEffectView(effect: blurEffect)
-        blurredEffectView.alpha = 0.8
-        blurredEffectView.frame = headerImage.bounds
-        view.addSubview(blurredEffectView)
-
-        
-        
+//        let blurEffect = UIBlurEffect(style: .Dark)
+//        let blurredEffectView = UIVisualEffectView(effect: blurEffect)
+//        blurredEffectView.alpha = 0.8
+//        blurredEffectView.frame = headerImage.bounds
+//        view.addSubview(blurredEffectView)
 
     }
 
@@ -57,7 +50,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
 
         let headerY = headerImage.frame.origin.y
         print("Header Y: \(headerY)")
-        
         
         //When scrolling down scale header image
         } else if offset < 0 {
@@ -83,7 +75,6 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             return value * ratio + r2Min - r1Min * ratio
     }
     
-
 
     
 }
